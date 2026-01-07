@@ -10,4 +10,4 @@ Due to limitations of Factorio engine, parameters of entity cannot be modified a
 
 # Other info
 
-This mod is being developed by one person (i dont know who ever need this info). All suggestions/feature requests/bug reports you can provide in 'Disscussions' tab on [Mod page](https://mods.factorio.com/mod/belt-quality)
+This mod is being developed by one person (i dont know who ever need this info). All suggestions/feature requests/bug reports you can provide in 'Disscussion' tab on [Mod page](https://mods.factorio.com/mod/belt-quality)

@@ -16,9 +16,15 @@ local function buildList()
 	end
 end
 
-script.on_init(buildList())
-script.on_load(buildList())
-script.on_configuration_changed(buildList())
+script.on_init(function()
+	buildList()
+end)
+script.on_load(function() 
+	buildList()
+end)
+script.on_configuration_changed(function() 
+	buildList()
+end)
 
 conversion = false
 script.on_event(defines.events.on_lua_shortcut, function(event)
