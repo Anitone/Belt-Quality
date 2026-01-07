@@ -1,0 +1,107 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 07. 01. 2026
+  Bugfixes:
+    - Fixed some compatibility issues by migrating to data-final-fixes.
+    - Fixed conversion tool not working after save reload.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 01. 04. 2025
+  Minor Features:
+    - Added an option to print how many entities were converted/unconverted.
+  Bugfixes:
+    - Fixed a bug when splitters won't save their filers and priorities on conversion.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 30. 03. 2025
+  Bugfixes:
+    - Fixed compatibility with infinite-quality-tiers
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 30. 03. 2025
+  Minor Features:
+    - Added an un-conversion tool.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 29. 03. 2025
+  Bugfixes:
+    - Fixed Compatibility issue with more quality scaling mod. Game wont crash anymore.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 28. 03. 2025
+  Bugfixes:
+    - Fixed a critical bug when mining any object would cause an immediate crash.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 28. 03. 2025
+  Minor Features:
+    - Marked space-age as optional dependency. Now you can play mod only with quality.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 28. 03. 2025
+  Major Features:
+    - Added settings tab for mod. Now you can modify speed scaling factor in % per level or disable beltt speed scaling at all(why you would ever need this).
+  Bugfixes:
+    - Fixed potential bug when mod crashes when pPayer mines something.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 28. 03. 2025
+  Bugfixes:
+    - Hot-fix for bug when underground conveyors wasn't converting correctly with Belt conversion tool.
+    - Fixed a bug when quality 0 conveyors (normal quality) was being converted by Belt convertion tool, that led to undefined behavior.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 28. 03. 2025
+  Major Features:
+    - Added new way to convert betls to modded ones. Now you have new shortcut in toolbar, called "Belt convertion tool". When you equip it and select already existing entities(script ignores unneeded ones), mod replaces all valid to replace belts to modded quality analog.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 28. 03. 2025
+  Minor Features:
+    - Added compatibility for exotic space industries mod loaders.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 27. 03. 2025
+  Minor Features:
+    - Fixed compatibility with aai-loaders mod. Now their speed affected by quality too.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 27. 03. 2025
+  Bugfixes:
+    - Hotfix for aai-loaders. Now they will be temporarily ignored.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 27. 03. 2025
+  Minor Features:
+    - Added compatibility for Advanced Furnaces 2 Space age loaders.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 26. 03. 2025
+  Major Features:
+    - Added partial mod compatibility(conveyors/underground conveyours/splitters).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 26. 03. 2025
+  Minor Features:
+    - Added button to toggle convertion of vanilla belts to modded ones. Current state of convertion will be printed in game chat  when shortcut button pressed.
+    - Added mod thumbnail.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 26. 03. 2025
+  Major Features:
+    - Complete revamp of mod system, cleaner code, optimized look, enchanced gameplay.
+  Bugfixes:
+    - Fixed a bug when chain-placing conveyors led to sudden underground belt blueprints appearing.
+    - Fixed a bug when player was unable to quick equip modded conveyor belts.
+    - Fixed a bug when underground belt link wasn't appearing while placing underground betls.
+    - Fixed a bug when last conveyor/underground conveyor/splitter in stack on place not changing stats.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 26. 03. 2025
+  Bugfixes:
+    - Fixed crash on startup, added space-age to dependencies.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 22. 03. 2025
+  Major Features:
+    - Initial release of playable version of mod.
