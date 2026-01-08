@@ -66,6 +66,7 @@ local function create_transport_prototypes(belt_types)
 						localised_name = tbelt.localised_name,
 						icon = base_belt_item.icon,
 						icon_size = base_belt_item.icon_size,
+						icons = table.deepcopy(base_belt_item.icons),
 						order = base_belt_item.order.."-quality-"..q.level,
 						stack_size = base_belt_item.stack_size,
 						place_result = tbelt.name
